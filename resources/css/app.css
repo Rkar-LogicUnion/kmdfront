@@ -1,0 +1,83 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+    overflow-x: hidden;
+    @apply bg-white;
+}
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.gradient-slide {
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    opacity: 0.6;
+}
+.text-primary {
+    color: theme("colors.primary");
+}
+.text-secondary {
+    color: theme("colors.secondary");
+}
+.bg-primary {
+    background-color: theme("colors.primary");
+}
+.bg-secondary {
+    background-color: theme("colors.secondary");
+}
+.btn-primary {
+    transition: 0.5s;
+    @apply border border-white rounded px-5 py-2 inline-block;
+}
+.btn-primary:hover {
+    color: theme("colors.primary");
+    @apply bg-white;
+}
+.btn-secondary {
+    transition: 0.5s;
+    border-color: theme("colors.primary");
+    color: theme("colors.primary");
+    @apply border rounded px-5 py-2 inline-block;
+}
+.btn-secondary:hover {
+    background-color: theme("colors.primary");
+    @apply text-white;
+}
+.footer {
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23006bbd' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    @apply bg-fixed;
+}
+.edu-service {
+    transition: 0.5s;
+    @apply p-4 rounded-lg border-t-4 border-transparent cursor-pointer w-5/6 mx-auto;
+}
+.edu-service:hover {
+    border-color: theme("colors.primary");
+    @apply shadow-2xl;
+}
+.home-blog-box {
+    transition: 0.5s;
+    @apply rounded;
+}
+.home-blog-box:hover {
+    @apply bg-white;
+}
+.home-blog-box:hover h4 {
+    color: theme("colors.primary");
+}
+.home-course {
+    transition: 0.5s;
+    @apply rounded-lg;
+}
+.home-course:hover {
+    background-color: theme("colors.secondary");
+    @apply shadow-lg text-white;
+}
+.home-course:hover .home-course-line {
+    @apply bg-white;
+}
