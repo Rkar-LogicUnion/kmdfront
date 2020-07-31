@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class education-partner extends Component
+class HomeCourse extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class education-partner extends Component
      */
     public function render()
     {
-        return view('components.education-partner');
+        return view('components.home-course');
     }
 }
