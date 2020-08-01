@@ -2,22 +2,22 @@
     <h2 class=" text-3xl">Why KMD ?</h2>
     <p class=" font-thin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod culpa beatae exercitationem iusto fugiat et numquam, minima quisquam optio libero, eos impedit ducimus adipisci vel omnis, quis atque! Natus, consequuntur!</p>
     <div class=" grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5">
-        <div class="w-4/5 mx-auto">
+        <div class="w-4/5 mx-auto staggerBox-5">
             <i class="far fa-star fa-3x text-primary"></i>
             <h3 class=" text-xl mt-3 mb-2">Experience</h3>
             <p class=" font-thin text-gray-600">Experience is an important element for establishment of successfull business. KMD holds 30+ years experience</p>
         </div>
-        <div class="w-4/5 mx-auto">
+        <div class="w-4/5 mx-auto staggerBox-5">
             <i class="far fa-star fa-3x text-primary"></i>
             <h3 class=" text-xl mt-3 mb-2">Experience</h3>
             <p class=" font-thin text-gray-600">Experience is an important element for establishment of successfull business. KMD holds 30+ years experience</p>
         </div>
-        <div class="w-4/5 mx-auto">
+        <div class="w-4/5 mx-auto staggerBox-5">
             <i class="far fa-star fa-3x text-primary"></i>
             <h3 class=" text-xl mt-3 mb-2">Experience</h3>
             <p class=" font-thin text-gray-600">Experience is an important element for establishment of successfull business. KMD holds 30+ years experience</p>
         </div>
-        <div class="w-4/5 mx-auto">
+        <div class="w-4/5 mx-auto staggerBox-5">
             <i class="far fa-star fa-3x text-primary"></i>
             <h3 class=" text-xl mt-3 mb-2">Experience</h3>
             <p class=" font-thin text-gray-600">Experience is an important element for establishment of successfull business. KMD holds 30+ years experience</p>

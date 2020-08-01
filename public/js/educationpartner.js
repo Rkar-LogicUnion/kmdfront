@@ -16,3 +16,16 @@ new Swiper(".swiper-container", {
         slideShadows: true
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    var modal = document.getElementById("youtube-model");
+    var ytplayBtn = document.getElementById("ytplayBtn");
+    ytplayBtn.onclick = function() {
+        modal.style.display = "flex";
+    };
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+});

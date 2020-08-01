@@ -6,6 +6,41 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-item,
+iframe,
+embed,
+object,
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.aspect-ratio-square {
+    padding-top: 100%;
+}
+.aspect-ratio-16\/9 {
+    padding-top: 56.25%;
+}
+.aspect-ratio-4\/3 {
+    padding-top: 75%;
+}
+.aspect-ratio-21\/9 {
+    padding-top: 42.86%;
+}
+
 body {
     overflow-x: hidden;
     @apply bg-white;
@@ -87,4 +122,7 @@ body {
 }
 #kmd-svg.finished {
     fill-opacity: 1;
+}
+#youtube-model {
+    background-color: #00000090;
 }

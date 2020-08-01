@@ -4,21 +4,21 @@
     <div class=" grid grid-cols-1 lg:grid-cols-3 mt-5">
         <div class=" order-2 lg:order-1 p-2">
             <a href="#" class=" inline-block">
-                <div class=" text-left mb-5 p-3 home-course">
+                <div class=" text-left mb-5 p-3 home-course staggerBox-2">
                     <h4 class=" text-lg mb-2">Computer Application Courses</h4>
                     <div class=" bg-secondary w-1/4 h-1 mb-2 home-course-line"></div>
                     <p class=" font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate animi quidem esse non architecto tenetur? Blanditiis asperiores necessitatibus itaque eaque nam possimus cupiditate mollitia sequi, eos beatae a? Ducimus, ad?</p>
                 </div>
             </a>
             <a href="#" class=" inline-block">
-                <div class=" text-left mb-5 p-3 home-course">
+                <div class=" text-left mb-5 p-3 home-course staggerBox-2">
                     <h4 class=" text-lg mb-2">Computer Application Courses</h4>
                     <div class=" bg-secondary w-1/4 h-1 mb-2 home-course-line"></div>
                     <p class=" font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate animi quidem esse non architecto tenetur? Blanditiis asperiores necessitatibus itaque eaque nam possimus cupiditate mollitia sequi, eos beatae a? Ducimus, ad?</p>
                 </div>
             </a>
             <a href="#" class=" inline-block">
-                <div class=" text-left mb-5 p-3 home-course">
+                <div class=" text-left mb-5 p-3 home-course staggerBox-2">
                     <h4 class=" text-lg mb-2">Computer Application Courses</h4>
                     <div class=" bg-secondary w-1/4 h-1 mb-2 home-course-line"></div>
                     <p class=" font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate animi quidem esse non architecto tenetur? Blanditiis asperiores necessitatibus itaque eaque nam possimus cupiditate mollitia sequi, eos beatae a? Ducimus, ad?</p>
@@ -101,26 +101,26 @@
                 </svg>
             </div>
             <div class=" h-full flex flex-col px-5 ml-2">
-                <div class=" h-12 w-1 bg-primary self-center"></div>
-                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg ml-2" alt="">
-                <div class=" h-12 w-1 bg-primary self-center"></div>
-                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg mr-2 self-end" alt="">
-                <div class=" h-12 w-1 bg-primary self-center"></div>
-                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg ml-2" alt="">
-                <div class=" h-12 w-1 bg-primary self-center"></div>
-                <a href="#" class=" btn-secondary">See More</a>
+                <div class=" w-1 bg-primary self-center h-0" id="svg-1"></div>
+                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg ml-2 h-0" alt="" id="svg-2">
+                <div class=" w-1 bg-primary self-center h-0" id="svg-3"></div>
+                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg mr-2 self-end h-0" alt="" id="svg-4">
+                <div class=" w-1 bg-primary self-center h-0" id="svg-5"></div>
+                <img src="{{ asset('images/02.jpg') }}" class=" w-1/2 shadow-lg ml-2 h-0" alt="" id="svg-6">
+                <div class=" w-1 bg-primary self-center h-0" id="svg-7"></div>
+                <a href="#" class=" btn-secondary opacity-0" id="svg-8">See More</a>
             </div>
         </div>
         <div class=" order-3 p-2">
             <a href="#" class=" inline-block">
-                <div class=" text-right mb-5 p-3 home-course">
+                <div class=" text-right mb-5 p-3 home-course staggerBox-3">
                     <h4 class=" text-lg mb-2">Computer Application Courses</h4>
                     <div class=" bg-secondary w-1/4 h-1 mb-2 home-course-line inline-block"></div>
                     <p class=" font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate animi quidem esse non architecto tenetur? Blanditiis asperiores necessitatibus itaque eaque nam possimus cupiditate mollitia sequi, eos beatae a? Ducimus, ad?</p>
                 </div>
             </a>
             <a href="#" class=" inline-block">
-                <div class=" text-right mb-5 p-3 home-course">
+                <div class=" text-right mb-5 p-3 home-course staggerBox-3">
                     <h4 class=" text-lg mb-2">Computer Application Courses</h4>
                     <div class=" bg-secondary w-1/4 h-1 mb-2 home-course-line inline-block"></div>
                     <p class=" font-thin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate animi quidem esse non architecto tenetur? Blanditiis asperiores necessitatibus itaque eaque nam possimus cupiditate mollitia sequi, eos beatae a? Ducimus, ad?</p>
