@@ -18625,6 +18625,15 @@ body {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+#kmd-svg {
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+}
+
+#kmd-svg.finished {
+  fill-opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

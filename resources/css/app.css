@@ -81,3 +81,10 @@ body {
 .home-course:hover .home-course-line {
     @apply bg-white;
 }
+#kmd-svg {
+    fill-opacity: 0;
+    transition: fill-opacity 1s;
+}
+#kmd-svg.finished {
+    fill-opacity: 1;
+}
