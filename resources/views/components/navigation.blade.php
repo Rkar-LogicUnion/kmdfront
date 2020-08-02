@@ -2,7 +2,7 @@
     <a href="#"><img src="{{ asset('images/logo.svg') }}" class=" w-32 nav-logo" alt=""></a>
     <div>
         <ul class=" text-white hidden lg:block">
-            <li class=" nav-item"><a href="#">Home</a></li>
+            <li class=" nav-item active"><a href="#">Home</a></li>
             <li class=" nav-item relative parent-menu">Academics <i class="fas fa-angle-down"></i>
                 <div class=" child-menu">
                     <div class="rounded bg-white shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
