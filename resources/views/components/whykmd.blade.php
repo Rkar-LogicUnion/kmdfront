@@ -1,4 +1,4 @@
-<section class=" w-full md:w-9/12 mx-auto text-center font-roboto mt-8">
+<section class=" w-full md:w-9/12 mx-auto text-center font-roboto mt-8" >
     <h2 class=" text-3xl">Why KMD ?</h2>
     <p class=" font-thin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod culpa beatae exercitationem iusto fugiat et numquam, minima quisquam optio libero, eos impedit ducimus adipisci vel omnis, quis atque! Natus, consequuntur!</p>
     <div class=" grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5">

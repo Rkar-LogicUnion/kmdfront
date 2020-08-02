@@ -55,7 +55,7 @@
             <a href="#" class=" btn-secondary">Read More</a>
         </div>
     </div>
-    <div class=" fixed w-full h-full top-0 left-0 z-50 flex items-center justify-center hidden" id="youtube-model">
+    <div class=" fixed w-full h-full top-0 left-0 z-max flex items-center justify-center hidden" id="youtube-model">
         <div class=" w-4/5 mx-auto">
             <div class="embed-responsive aspect-ratio-16/9">
                     <iframe class=" embed-responsive-item " src="https://www.youtube.com/embed/NR1D-L2YwbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
