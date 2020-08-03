@@ -186,3 +186,6 @@ body {
 .post-popular-box:hover {
     @apply bg-gray-300;
 }
+.post-title {
+    @apply bg-white  py-5 px-3 w-2/4 shadow-lg border-l-8 border-blue-700;
+}
