@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('user.home');
 });
+Route::get('/blog', function () {
+    return view('user.blog');
+});
 
 Auth::routes();
 

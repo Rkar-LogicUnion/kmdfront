@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navTime.to("#nav-bar", {
         scrollTrigger: {
             trigger: "#nav-check",
-            start: "500px center",
+            start: "10px center",
             end: "bottom top",
             // markers: true,
             scrub: true,
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.from(".nav-logo", {
         scrollTrigger: {
             trigger: "#nav-check",
-            start: "500px center",
+            start: "10px center",
             end: "bottom top",
             // markers: true,
             scrub: true,

@@ -4,7 +4,7 @@
     @include('user.layouts.head')
     @stack('css')
 </head>
-<body>
+<body class=" bg-gray-200">
     <div id="app">
 
         <x-navigation/>

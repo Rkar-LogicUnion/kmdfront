@@ -3,7 +3,7 @@
         <div class=" w-full h-full top-0 left-0 gradient-slide absolute"></div>
         <button id="ytplayBtn" class=" z-10"><i class="far fa-play-circle fa-4x text-white"></i></button>
     </div>
-    <div class=" bg-gray-200 font-roboto px-6 py-3">
+    <div class=" bg-white font-roboto px-6 py-3">
         <h2 class=" text-2xl mb-2">Latest News</h2>
         <ul>
             <li class=" mb-2">

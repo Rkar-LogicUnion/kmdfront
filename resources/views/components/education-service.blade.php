@@ -1,4 +1,4 @@
-<section class=" w-full lg:w-9/12 mx-auto text-center font-roboto mt-5" >
+<section class=" w-full lg:w-9/12 mx-auto text-center font-roboto mt-5" id="nav-check">
     <h2 class=" text-3xl">Education Services</h2>
     <p class=" font-thin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod culpa beatae exercitationem iusto fugiat et numquam, minima quisquam optio libero, eos impedit ducimus adipisci vel omnis, quis atque! Natus, consequuntur!</p>
     <div class=" grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-0 mt-5">

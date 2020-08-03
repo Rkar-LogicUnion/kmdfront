@@ -1,4 +1,4 @@
-<section class="h-max bg-red-200 flex flex-col md:grid md:grid-cols-2 md:gap-4" id="nav-check">
+<section class="h-max bg-red-200 flex flex-col md:grid md:grid-cols-2 md:gap-4">
     <div class=" w-screen h-screen absolute top-0 left-0 ">
         <img src="{{ asset('images/03.jpg') }}" class=" w-screen h-screen object-cover slide-stagger3 slide-img" alt="">
     </div>
