@@ -1,6 +1,6 @@
-<section class="  w-11/12 md:w-4/5 mx-auto" id="nav-check">
+<section class="  w-11/12 md:w-4/5 mx-auto" >
     <div class=" grid grid-cols-4">
-        <div class=" col-span-4">
+        <div class=" col-span-4" id="nav-check">
             <img src="{{ asset('images/02.jpg') }}" class=" w-full block md:hidden" alt="">
             <div class=" h-70vh bg-cover hidden md:flex items-center" style="background-image: url({{ asset('images/02.jpg') }})">
                 <div class=" post-title">

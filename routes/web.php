@@ -25,6 +25,9 @@ Route::get('/post', function () {
 Route::get('/testimonial', function () {
     return view('user.testimonial');
 });
+Route::get('/service', function () {
+    return view('user.service');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
