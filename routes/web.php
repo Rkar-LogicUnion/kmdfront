@@ -28,6 +28,12 @@ Route::get('/testimonial', function () {
 Route::get('/service', function () {
     return view('user.service');
 });
+Route::get('/facilities', function () {
+    return view('user.facilities');
+});
+Route::get('/photo', function () {
+    return view('user.photo');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

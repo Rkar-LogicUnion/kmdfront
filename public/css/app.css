@@ -18956,6 +18956,51 @@ body {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
+.photo-box {
+  transition: 0.5s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.photo-card {
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem;
+}
+
+.photo-zoom {
+  background-color: #00000090;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-box:hover {
+  /* transform: scale(1.03); */
+}
+
+.photo-box:hover .photo-zoom {
+  height: 100%;
+}
+
+.photo-box .photo-zoom > img {
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.photo-box:hover .photo-zoom > img {
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

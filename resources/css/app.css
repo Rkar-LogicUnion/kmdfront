@@ -215,3 +215,28 @@ body {
 .service-step-box-1 {
     @apply bg-white rounded-lg shadow-lg;
 }
+.photo-box {
+    transition: 0.5s;
+    @apply shadow-lg rounded-md cursor-pointer;
+}
+.photo-card {
+    @apply object-cover shadow-lg rounded-md;
+}
+.photo-zoom {
+    background-color: #00000090;
+    transition: 0.5s;
+    @apply absolute w-full h-0 top-0 left-0 rounded-md flex items-center justify-center;
+}
+.photo-box:hover {
+    /* transform: scale(1.03); */
+}
+.photo-box:hover .photo-zoom {
+    @apply h-full;
+}
+.photo-box .photo-zoom > img {
+    transition: 0.5s;
+    @apply opacity-0;
+}
+.photo-box:hover .photo-zoom > img {
+    @apply opacity-100;
+}
