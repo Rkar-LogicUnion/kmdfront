@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 .embed-responsive {
     position: relative;
@@ -169,6 +169,9 @@ body {
 .h-20vh {
     height: 20vh;
 }
+.h-60vh {
+    height: 60vh;
+}
 .h-70vh {
     height: 70vh;
 }
@@ -239,4 +242,20 @@ body {
 }
 .photo-box:hover .photo-zoom > img {
     @apply opacity-100;
+}
+.course-box {
+    transition: 0.3s;
+    @apply bg-white rounded;
+}
+.course-box img {
+    transition: 0.5s;
+}
+.course-box:hover img {
+    @apply shadow-xl;
+}
+.course-box:hover {
+    @apply shadow-2xl;
+}
+.course-discount {
+    @apply absolute top-0 right-0 bg-red-600 text-sm text-white px-3 py-1 shadow-md rounded-l-full mt-5;
 }

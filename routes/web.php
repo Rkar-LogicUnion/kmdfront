@@ -34,6 +34,12 @@ Route::get('/facilities', function () {
 Route::get('/photo', function () {
     return view('user.photo');
 });
+Route::get('/academics', function () {
+    return view('user.academics');
+});
+Route::get('/location', function () {
+    return view('user.location');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
