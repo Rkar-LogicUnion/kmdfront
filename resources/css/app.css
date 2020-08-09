@@ -15,7 +15,6 @@
 }
 
 .embed-responsive-item,
-iframe,
 embed,
 object,
 video {
@@ -48,10 +47,15 @@ body {
 .font-roboto {
     font-family: "Roboto", sans-serif;
 }
-
+.max-h-16 {
+    max-height: 16rem;
+}
 .gradient-slide {
     background: linear-gradient(to right, #009fff, #ec2f4b);
     opacity: 0.6;
+}
+.blur {
+    filter: blur(5px);
 }
 .text-primary {
     color: theme("colors.primary");
@@ -258,4 +262,40 @@ body {
 }
 .course-discount {
     @apply absolute top-0 right-0 bg-red-600 text-sm text-white px-3 py-1 shadow-md rounded-l-full mt-5;
+}
+.course-center-list {
+    transition: 0.2s;
+    @apply px-3 py-2 inline-block w-full;
+}
+.course-center-list:hover {
+    @apply bg-gray-300;
+}
+.course-center-list-active {
+    @apply bg-gray-300;
+}
+tr:nth-child(even) {
+    @apply bg-gray-200;
+}
+td {
+    @apply border border-gray-300 py-2;
+}
+.course-table {
+    border-collapse: separate;
+    border-spacing: 0.3rem 0rem;
+}
+.course-table-header {
+    min-width: 14rem;
+    max-width: 18rem;
+    @apply text-xl bg-blue-600 text-white py-5 rounded-t-lg shadow-lg;
+}
+.course-static-header {
+    min-width: 8rem;
+    max-width: 8rem;
+}
+.enroll-btn {
+    transition: 0.2s;
+    @apply bg-blue-600 text-white px-8 py-2 rounded-full shadow-lg;
+}
+.enroll-btn:hover {
+    @apply bg-blue-700;
 }

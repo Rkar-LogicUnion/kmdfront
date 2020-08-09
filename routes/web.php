@@ -37,6 +37,9 @@ Route::get('/photo', function () {
 Route::get('/academics', function () {
     return view('user.academics');
 });
+Route::get('/course', function () {
+    return view('user.course');
+});
 Route::get('/location', function () {
     return view('user.location');
 });

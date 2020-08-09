@@ -18543,7 +18543,6 @@ video {
 }
 
 .embed-responsive-item,
-iframe,
 embed,
 object,
 video {
@@ -18583,9 +18582,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.max-h-16 {
+  max-height: 16rem;
+}
+
 .gradient-slide {
   background: linear-gradient(to right, #009fff, #ec2f4b);
   opacity: 0.6;
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
 .text-primary {
@@ -19044,6 +19052,92 @@ body {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
   margin-top: 1.25rem;
+}
+
+.course-center-list {
+  transition: 0.2s;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.course-center-list:hover {
+  --bg-opacity: 1;
+  background-color: #e2e8f0;
+  background-color: rgba(226, 232, 240, var(--bg-opacity));
+}
+
+.course-center-list-active {
+  --bg-opacity: 1;
+  background-color: #e2e8f0;
+  background-color: rgba(226, 232, 240, var(--bg-opacity));
+}
+
+tr:nth-child(even) {
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+}
+
+td {
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e2e8f0;
+  border-color: rgba(226, 232, 240, var(--border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.course-table {
+  border-collapse: separate;
+  border-spacing: 0.3rem 0rem;
+}
+
+.course-table-header {
+  min-width: 14rem;
+  max-width: 18rem;
+  font-size: 1.25rem;
+  --bg-opacity: 1;
+  background-color: #3182ce;
+  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.course-static-header {
+  min-width: 8rem;
+  max-width: 8rem;
+}
+
+.enroll-btn {
+  transition: 0.2s;
+  --bg-opacity: 1;
+  background-color: #3182ce;
+  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.enroll-btn:hover {
+  --bg-opacity: 1;
+  background-color: #2b6cb0;
+  background-color: rgba(43, 108, 176, var(--bg-opacity));
 }
 
 @media (min-width: 640px) {
