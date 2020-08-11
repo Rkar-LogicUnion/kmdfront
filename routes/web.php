@@ -43,6 +43,9 @@ Route::get('/course', function () {
 Route::get('/location', function () {
     return view('user.location');
 });
+Route::get('/faculties', function () {
+    return view('user.faculties');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
