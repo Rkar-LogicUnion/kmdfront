@@ -19217,6 +19217,19 @@ td {
   border-radius: 0.25rem;
 }
 
+.available-course {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.available-course img {
+  transition: 0.3s;
+}
+
+.available-course:hover img {
+  transform: scale(1.05);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -46,6 +46,9 @@ Route::get('/location', function () {
 Route::get('/faculties', function () {
     return view('user.faculties');
 });
+Route::get('/location/location', function () {
+    return view('user.locationpost');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

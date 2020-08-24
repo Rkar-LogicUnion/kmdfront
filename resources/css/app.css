@@ -325,3 +325,12 @@ td {
 .enroll-input {
     @apply border-gray-700 border px-4 py-2 rounded;
 }
+.available-course {
+    @apply rounded overflow-hidden;
+}
+.available-course img {
+    transition: 0.3s;
+}
+.available-course:hover img {
+    transform: scale(1.05);
+}
