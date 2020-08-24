@@ -150,4 +150,28 @@
             </div>
         </div>
     </div>
+
+    <div class=" z-max fixed top-0 left-0 bg-black bg-opacity-50 w-full h-full flex items-center justify-center hidden">
+        <div class=" bg-white grid grid-cols-1 md:grid-cols-2 w-11/12 md:w-auto rounded">
+            <div class=" relative">
+                <a href="#" class=" absolute top-0 left-0 text-primary p-2"><i class="fas fa-times-circle"></i></a>
+                <img src="{{ asset('images/02.jpg') }}" class=" w-full md:w-64 h-full object-cover rounded-t md:rounded-l" alt="">
+            </div>
+            <div class=" grid grid-cols-1 gap-4">
+                <h3 class=" font-bold bg-secondary text-white py-4 text-center rounded-none md:rounded-tr">Registration Form</h3>
+                <div class=" mx-4 py-3">
+                    <form action="#" class=" grid grid-cols-1 gap-3">
+                        <input type="text" placeholder="Name" class=" enroll-input">
+                        <input type="text" placeholder="Phone" class=" enroll-input">
+                        <input type="mail" placeholder="Email" class=" enroll-input">
+                        <textarea placeholder="Message" class=" enroll-input"></textarea>
+                        <div class=" flex justify-around">
+                            <button>Cancel</button>
+                            <button type="submit" class=" enroll-btn">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
