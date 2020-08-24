@@ -11,7 +11,7 @@
     <div class=" mt-6 grid grid-cols-4 gap-4">
         <div class=" col-span-4 lg:col-span-3 bg-white p-4 rounded">
             <div>
-                <a href="#" class=" text-primary font-bold">Branches <i class="far fa-arrow-alt-circle-right"></i></a><span> မြေနီကုန်း</span>
+                <a href=" #" class=" text-primary font-bold">Branches <i class="far fa-arrow-alt-circle-right"></i></a><span> မြေနီကုန်း</span>
                 <p class=" text-xs text-gray-600">Yangon</p>
             </div>
             <div class=" mt-4">

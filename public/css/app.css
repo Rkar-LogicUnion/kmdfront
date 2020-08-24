@@ -19230,6 +19230,147 @@ td {
   transform: scale(1.05);
 }
 
+.loading-box {
+  transform: rotate(45deg);
+  width: 12rem;
+  height: 12rem;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.loading-bar {
+  background-color: #21409A;
+  box-shadow: 0px 4px 10px #21409A;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  position: absolute;
+  width: 25%;
+  height: 0.25rem;
+  border-radius: 9999px;
+}
+
+.bar-1 {
+  -webkit-animation-name: bar-1-anim;
+          animation-name: bar-1-anim;
+  top: 0;
+  left: 0;
+}
+
+.bar-2 {
+  -webkit-animation-name: bar-2-anim;
+          animation-name: bar-2-anim;
+  top: 0;
+  right: 0;
+  height: 3rem;
+  width: 0.25rem;
+}
+
+.bar-3 {
+  -webkit-animation-name: bar-3-anim;
+          animation-name: bar-3-anim;
+  bottom: 0;
+  right: 0;
+}
+
+.bar-4 {
+  -webkit-animation-name: bar-4-anim;
+          animation-name: bar-4-anim;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 0.25rem;
+}
+
+@-webkit-keyframes bar-1-anim {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: calc(12rem - 25%);
+  }
+}
+
+@keyframes bar-1-anim {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: calc(12rem - 25%);
+  }
+}
+
+@-webkit-keyframes bar-2-anim {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: calc(12rem - 25%);
+  }
+}
+
+@keyframes bar-2-anim {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: calc(12rem - 25%);
+  }
+}
+
+@-webkit-keyframes bar-3-anim {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: calc(12rem - 25%);
+  }
+}
+
+@keyframes bar-3-anim {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: calc(12rem - 25%);
+  }
+}
+
+@-webkit-keyframes bar-4-anim {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: calc(12rem - 25%);
+  }
+}
+
+@keyframes bar-4-anim {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: calc(12rem - 25%);
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
