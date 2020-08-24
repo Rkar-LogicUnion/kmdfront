@@ -1,8 +1,12 @@
 <div>
-    <div id="map" class=" w-full h-70vh">
+    {{-- <div id="map" class=" w-full h-70vh">
+
+    </div> --}}
+    <div class="w-full h-70vh -mt-12" id="nav-check">
+        <iframe class=" w-full h-70vh" src="https://www.google.com/maps/d/embed?mid=1NfCQN7WBzppLYAKbF0FU_gFKCigv8_78"></iframe>
     </div>
     <div class="container mx-auto grid grid-cols-5 gap-4 mt-6">
-        <div class=" col-span-1">
+        <div class=" col-span-5 md:col-span-1">
             <div class="">
                 <h3 class=" font-bold mb-2">Filter by city</h3>
                 <div>
@@ -24,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class=" col-span-4 grid grid-cols-2 gap-2">
+        <div class=" col-span-5 md:col-span-4 grid grid-cols-1 lg:grid-cols-2 gap-2">
             <a href="#">
                 <div class=" location-box">
                     <img src="{{ asset('images/02.jpg') }}" class=" h-32 rounded-lg shadow-md" alt="">
